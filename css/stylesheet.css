@@ -1,0 +1,190 @@
+* { margin: 0; padding: 0; outline: 0; border: 0; box-sizing: border-box; -webkit-box-sizing: border-box;}
+html, body { width: 100%; height: 100%; font-family: 'Roboto', sans-serif;font-weight: 400;}
+a,a:hover { text-decoration: none !important; }
+.clear{clear: both;}
+.container{width: 1150px; margin: 0 auto;}
+ a.button{position: absolute;background-color: #33bc94;color: #fff;display: block;text-align: center;text-transform: uppercase; width: 190px;height: 57px;line-height: 57px;;font-size: 17px;}
+ a.button:hover{position: absolute;background-color: #299c7a;color: #fff;width: 190px;height: 57px;line-height: 57px;}
+ a.button img{margin-left: 10px;}
+ a.button:hover img{margin-left: 15px;transition-duration: 1s;}
+ .toplinks{border:1px solid #e5e5e5; border:0px 0px 1px 0px; padding-top: 18px; padding-bottom: 10px}
+.toplinks .logo{float: left;margin-right: 35px}
+.headicon{float: left;}
+.headicon ul{color:#8d8d8d;font-weight: 300; position: relative;}
+.headicon ul::after{position: absolute; content: ""; width: 1px; height: 37px; background-color: #a9a9a9; top: 0; right: 0}
+.headicon ul li{position: relative; list-style: none;text-align: left; float: left; padding-right: 20px;}
+.headicon ul li::before{position: absolute; content: ""; width: 1px; height: 37px; background-color: #a9a9a9; top: 0; left: 0;}
+.headicon li span{font-size: 12px; padding-left: 60px; display: block; position: relative;}
+.headicon li span::before{position: absolute; content: ""; top: 4px; left: 16px; display: block; background-repeat: no-repeat; background-position: left top;}
+.headicon li.shipping span::before{width: 37px; height: 27px; background-image: url(../images/car.png);}
+.headicon li.mb span::before{width: 37px; height: 27px; background-image: url(../images/mb.png);}
+.headicon li.support span::before{width: 37px; height: 27px; background-image: url(../images/support.png);}
+.headicon1{float: right}
+.headicon2{color:#666;font-size: 14px; position: relative;float: left; }
+.headicon2 ul{ padding: 10px 30px 0 15px}
+.headicon2 li{padding-right: 45px;list-style: none;display: inline-block;}
+.headicon2 li a{text-decoration: none;color: #666666}
+.headicon2 li a:hover{color:#33bc94;font-size: 14px;}
+.headicon2 li:last-child{padding-right: 0px;}
+.headicon3{position: relative;float: left;}
+.headicon3 ul{ padding: 10px 10px 0px 30px;}
+.headicon3 li{list-style: none;display: inline-block;padding-left: 20px }
+.headicon3 ul::before{position: absolute; content: ""; width: 1px; height: 20px; background-color: #a9a9a9; top: 10px; left: 0;}
+.headicon3 span{background-color: #33bc94; border-radius:100%;font-size: 10px; height:17px; width:17px;text-align: center;position: absolute;top:0px; right: 0px;}
+.head{color: #000000;font-size: 14px;font-weight: bold; }
+.head ul{}
+.items{}
+.head li{}
+.items{float: left;}
+.nav li a.all{color:#78bca0}
+.nav {
+    list-style: none;
+    font-weight: bold;
+}
+.nav li {
+    float: left;
+    margin-right: 34px;
+    position: relative;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.nav li:last-child {
+    margin-right: 35px;
+}
+.nav a {
+    display: block;
+    color: #000000;
+    line-height: 16px;    
+    text-decoration: none;
+	padding-top:15px;
+	padding-left:35px;
+}
+.nav a:first-child{padding-left: 25px}
+.nav a img {
+    vertical-align: middle;
+    margin: -2px 0 0 5px;
+}
+.nav a:hover {
+    color: #589b7e;
+    
+    text-decoration: none;
+}
+
+/*--- DROPDOWN ---*/
+.nav ul {
+    list-style: none;
+    position: absolute;
+    left:-9999px;
+    width: 180px;
+    background-color: #fff;
+}
+.nav ul li {
+    padding-top: 0;height:45px; 
+    float: none;
+    display: block;
+    margin-right: 0px;
+}
+.nav ul li:last-child{
+	margin-right: 0;
+}
+.nav ul a { 
+    white-space: nowrap;
+    line-height: 36px; padding: 0 15px; border-top: 1px solid #efefef;
+}
+.nav li:hover ul { left: 0; margin-left: 25px; padding-top: 15px;width:180px}
+.nav li:hover a {  text-decoration: underline; }
+.nav li:hover ul a { text-decoration: none;height: 45px;; line-height: 16px;padding-top: 15px;padding-left: 15px}
+.nav li:hover ul li a:hover { background-color: #33bc99; color: #fff;height: 45px; line-height: 16px;padding-top: 15px;transition-duration: 1s;padding-left: 15px }
+.itemsright{float: right; font-size: 0px;}
+.itemsright a{border-bottom:5px solid #e5e5e5;color: #000000;border-right: 1px solid #e5e5e5;font-size: 14px;display: inline-block;padding: 15px 40px; line-height: 16px;}
+.itemsright a:first-child{border-left: 1px solid #e5e5e5;}
+.itemsright a:hover{border-bottom:5px solid #33bc94;font-size: 14px;;border-right: 1px solid #e5e5e5;display: inline-block;padding: 15px 40px; line-height: 16px;color: #33bc94}
+.banner{position: relative;z-index: -1;}
+.banner .button{position: absolute;background-color: #ac9f89;bottom:80px;z-index: 3;
+margin-left: 35px;}
+.banner a.button:hover{background-color: #ac9f89;}
+.centerimage img{display: block; width: 100%;z-index: -1;}
+
+.eyecandy{margin-top: 75px;float: left;width: 100%;}
+.coloumnleft{width: 40%;float: left}
+.top{position: relative; margin-bottom: 25px}
+.eyecandy.coloumnleft.top a.button{bottom: 30px;}
+.bottom{position: relative;}
+.top a.button{  bottom: 30px;left: 330px;}
+.bottom a.button{  bottom: 30px;left: 30px;}
+.coloumnright{display: inline-block;width: 50%;position: relative;text-align: center;float: right;}
+.coloumnright a.button{bottom: 55px;left:185px; }
+.instagramsec{margin-top: 60px;background: url(../images/stylebox.png) top center;background-repeat: no-repeat;float: left;width: 100%;}
+.instagramsec .text{ color: #333333;font-family: "Lato"; font-size: 40px;text-transform: uppercase;text-align: center;padding-top: 55px; position: relative; }
+.instagramsec .text span{color: #8c8c8c; font-size: 18px; display: block;padding-top: 10px;text-transform: none;}
+.bannersmall .text span{float: right;text-transform: uppercase;font-weight: bold;font-size: 20px;font-family: "Lato";letter-spacing: 2px;color:#333333}
+.bannersmall .text span::before{background-color: #e5e5e5;height: 1px;width: 805px;top: 77px; left: 0; position: absolute;content: "";}
+.banner1{background: url(../images/banner1.png) no-repeat;color: #333333; font-size: 18px;text-align: right;margin-top: 90px;;width: 100%;height:535px; padding-top: 10px; }
+.banner1 a.button{margin-top: 35px;display: inline-block;position: inherit !important}
+.banner1 a:hover .button{padding:15px 40px;background-color: #299c7a;color: #fff;}
+.addbanner{margin-top:80px;}
+.addbanner .coloumnright{width: 50%;float: right}
+.addbanner .coloumnright.top{position: relative; margin-bottom: 25px}
+.addbanner .shoe{position: absolute;bottom: 45px; right: 40px;}
+.addbanner .coloumnright .top a.button{bottom: 30px;left:30px;}
+.addbanner .coloumnright .bottom{position: relative;}
+.addbanner .coloumnright .bottom a.button{  bottom: 30px;left: 30px;}
+.addbanner .coloumnleft{float: left;width: 40%;position: relative;}
+.addbanner .coloumnleft a.button{bottom: 55px; right:-48px }
+.centerimg{margin-top: 80px;}
+.single-item .left{float: left;color: #fff;font-size: 47px; font-family: "Lato"; font-weight: 800;text-align: left;width: 400px;position: absolute}
+.single-item .left span.text1{background-color: #33bc94; padding:10px;font-family: "Roboto"; font-size: 14px;font-weight: bold; text-transform: uppercase;letter-spacing: 1px;float: left}
+.single-item .left span.text2{display: block;font-family: "Roboto"; font-size: 13px;font-weight: 300;margin-bottom: 220px; text-transform: uppercase; word-spacing: 3px}
+.single-item{position: relative;}
+.single-item .centerimg1{ background: url(../images/centerimage2.png) no-repeat;height: 612px;}
+.single-item .centerimg2{background: url(../images/centerimage3.png) no-repeat;height: 612px;}
+.single-item .centerimg3{background: url(../images/centerimage4.png) no-repeat;height: 612px;}
+.centerimg .left{position: absolute;margin-top: 190px;}
+.centerimg .right{position: absolute;float: right;margin-top: 190px;right:225px;text-align: right;}
+.centerimg .right span{color: #fff;font-size: 17px;font-weight: bold; font-family: "Lato"}
+.centerimg .right .link img{width:14px !important ;height:9px !important;display: inline-block !important;}
+.centerimg .right .link{display: block;text-transform: uppercase;letter-spacing: 2px;font-weight: 400; color: #fff;text-decoration: none}
+.centerimg .right a img{margin-left: 20px;}
+.centerimg .right a:hover img{font-weight: bolder;transition-duration: 1s;}
+.autoplay{ margin-top: 82px;}
+.autoplay div img{ padding-left: 25px;;width: 100%;}
+.productmenu{}
+.productmenu .heading{font-family: "Lato";font-size: 40px; font-weight: bold;color: #333333;text-align: center;letter-spacing: 1px; text-transform: uppercase;width: 100%;}
+.heart{height: 24px !important;width: 27px !important;float: left;}
+.product ul li:hover .heart{background: url(../images/heart.png) no-repeat left top;top:0px; transition-duration: 0s}
+.product ul li:hover .heart:hover{background: url(../images/heart.png) no-repeat left bottom;top: 25px transition-duration: 0s}
+.cart{top: 30px;right: 0px;padding: 5px;float: right}
+.cart img{height: 17px !important;width: 22px !important;}
+.product ul li:hover .cart{background-color: #33bc99; transition-duration: 2s}
+.product ul li:hover .cart:hover{background-color: #299c7a; transition-duration: 2s}
+.heading span{color: #33bc99;}
+.product ul{padding-top: 90px;}
+.product ul li{position: relative;width: 24%;display: inline-block;font-size: 15px;text-align: center;text-transform: uppercase;padding: 35px;}
+.product ul li span{color: #33bc99;font-size: 22px; font-weight: bold}
+.product ul li a{text-decoration: none;font-family: "Lato";font-size: 15px; font-weight: bold;color: #333333;text-align: center;}
+.product ul li:hover{border: 1px solid #e5e5e5}
+
+.product ul li img{height: 187px;width: 198px;}
+.product ul li span img{height: 16px;width: 12px;}
+.footer{width: 100%;float: left;position: relative;margin-top: 120px;border: 1px solid #e5e5e5; border-top: 1px 0 0 0;height:364px;}
+.footer ul{margin-top: 35px}
+.footer ul li{list-style: none;color:#b0b0b0;padding-bottom: 10px;text-transform: capitalize;}
+.footer ul li a{list-style: none;color:#b0b0b0;padding-bottom: 20px;text-transform: capitalize;}
+.footer ul li a:hover{color:#33bc99;}
+.footer .fo1 span{color:#333333;font-size: 14px;font-weight: bold;text-transform: uppercase;}
+.footer .fo1 .boldtext{font-weight: bold;color:#999999}
+.footer .fo2 span{color:#333333;font-size: 14px;font-weight: bold;text-transform: uppercase;}
+.footer .fo3 span{color:#333333;font-size: 14px;font-weight: bold;text-transform: uppercase;}
+.footer .fo4 span{color:#333333;font-size: 14px;font-weight: bold;text-transform: uppercase;}
+.footer .fo4 li{display: inline-block;}
+.footer .fo1{display: inline-block;width: 25%;margin-top: 55px;}
+.footer .fo2{display: inline-block;width: 25%;margin-top: 55px;}
+.footer .fo3{display: inline-block;width: 25%;display: inline-block;margin-top: 55px;}
+.footer .fo4{display: inline-block;width: 21%;margin-top: 55px;}
+.fo5{background-color: #333333;width: 100%;top: 330px;color: #858585;height: 70px;float: left}
+.fo5 .fo5left{float: left;padding-top: 24px; }
+.fo5 .fo5right{float: right;padding-top: 30px; }
+.fo5 .fo5right ul{margin-top: -3px !important;}
+.fo5 .fo5right ul li{display: inline-block;}
+.fo5 .fo5right ul li a{height:20px;width: 50px;text-align: center;padding: 5px;}
+.fo5 .fo5right ul li a:hover{background-color:#33bc99;transition-duration: 1s}
